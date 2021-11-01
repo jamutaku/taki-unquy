@@ -53,6 +53,14 @@ defaults:
       layout: post
       author: sal
       avatar: /assets/images/avatar1.jpg
+
+  # all authors
+  - scope:
+      path: "_author"
+    values:
+      layout: post
+      author: john
+      avatar: /assets/images/avatar1.jpg
       
   # all pages
   - scope:
